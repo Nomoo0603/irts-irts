@@ -30,8 +30,21 @@ class BadInstagramCloneApp extends Component {
     const options = {};
     //options.location = ...
     this.camera.capture({metadata: options})
-      .then((data) => console.log(data))
+      .then((data) => console.log(data))/////
+      .then((data) =>      /////
+
+
+      
       .catch(err => console.error(err));
+
+      // var imageData = {
+      //   uri: iamge_path,
+      //    type: file_type, //the mime type of the file
+      //    name: file_name
+      //  }
+      //  const data = new FormData(); 
+      //  data.append("image",imageData)
+
   }
 }
 

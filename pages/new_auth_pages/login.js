@@ -26,6 +26,7 @@ const LoginScreen = () => {
         const user = userCredentials.user;
         console.log('Registered with:', user.email);
       })
+      
       .catch(error => alert(error.message))
   }
 
